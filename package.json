@@ -2,7 +2,7 @@
   "name": "franz-bugtong-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/A-R-O-N-A/franz-bugtong-react-portfolio",
+  "homepage": "https://A-R-O-N-A.github.io/franz-bugtong-react-portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
