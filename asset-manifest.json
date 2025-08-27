@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/franz-bugtong-react-portfolio/static/css/main.807c9d13.css",
+    "main.js": "/franz-bugtong-react-portfolio/static/js/main.43d5aac4.js",
+    "static/js/453.17f30a18.chunk.js": "/franz-bugtong-react-portfolio/static/js/453.17f30a18.chunk.js",
+    "static/media/mock10.png": "/franz-bugtong-react-portfolio/static/media/mock10.2d05b02ba569a430a255.png",
+    "static/media/mock09.png": "/franz-bugtong-react-portfolio/static/media/mock09.e18677ccfc932e52d754.png",
+    "static/media/mock08.png": "/franz-bugtong-react-portfolio/static/media/mock08.13f46873fdbd382f4b76.png",
+    "static/media/mock04.png": "/franz-bugtong-react-portfolio/static/media/mock04.f7b5679efade992a078c.png",
+    "static/media/mock07.png": "/franz-bugtong-react-portfolio/static/media/mock07.3f1110f482232b33c6a2.png",
+    "static/media/mock05.png": "/franz-bugtong-react-portfolio/static/media/mock05.4faafa70d200d1519a34.png",
+    "static/media/mock06.png": "/franz-bugtong-react-portfolio/static/media/mock06.ea816617e0d0fa0f63ca.png",
+    "static/media/mock01.png": "/franz-bugtong-react-portfolio/static/media/mock01.61bd486a54bf6e17ee5a.png",
+    "static/media/mock02.png": "/franz-bugtong-react-portfolio/static/media/mock02.bced48ae9cdda3acf1a3.png",
+    "static/media/mock03.png": "/franz-bugtong-react-portfolio/static/media/mock03.a4600719e0b5d2a3155b.png",
+    "index.html": "/franz-bugtong-react-portfolio/index.html",
+    "main.807c9d13.css.map": "/franz-bugtong-react-portfolio/static/css/main.807c9d13.css.map",
+    "main.43d5aac4.js.map": "/franz-bugtong-react-portfolio/static/js/main.43d5aac4.js.map",
+    "453.17f30a18.chunk.js.map": "/franz-bugtong-react-portfolio/static/js/453.17f30a18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.807c9d13.css",
+    "static/js/main.43d5aac4.js"
+  ]
+}
