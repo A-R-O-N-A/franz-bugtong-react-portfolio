@@ -10,7 +10,8 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Education</h1>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -20,13 +21,14 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">BSIT at CLSU</h3>
+            <h4 className="vertical-timeline-element-subtitle">Science City, Munoz, Nueva Ecija, Philippines</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Full-stack Web Development, GenAI/LLM, Project Management, Django, ReactJS, Laravel
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
@@ -61,7 +63,8 @@ function Timeline() {
             <p>
               Automation, Data Governance, Statistical Analysis
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
+
         </VerticalTimeline>
       </div>
     </div>

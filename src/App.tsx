@@ -34,9 +34,9 @@ function App() {
             <Expertise/>
             <Timeline/>
             <Project/>
-            <Contact/>
+            {/* <Contact/> */}
         </FadeIn>
-        <Footer />
+        {/* <Footer /> */}
     </div>
     );
 }

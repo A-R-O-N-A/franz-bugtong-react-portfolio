@@ -12,11 +12,12 @@ const labelsFirst = [
     "HTML5",
     "CSS3",
     "SASS",
-    "Flask",
+    "Django",
     "Python",
+    "Laravel",
+    "PHP",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Postman",
 ];
 
 const labelsSecond = [
@@ -32,13 +33,12 @@ const labelsSecond = [
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
+    "Llama",
+    "DeepSeek",
+    "Ollama",
     "LangChain",
-    "Qdrant",
     "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Python"
 ];
 
 function Expertise() {
@@ -50,7 +50,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I have built full stack applications using Django (python), Laravel (php), and ReactJS (javascript).</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -58,7 +58,7 @@ function Expertise() {
                         ))}
                     </div>
                 </div>
-
+{/* 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
@@ -69,12 +69,12 @@ function Expertise() {
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <p>Leveraged AI into my projects utilized AI models from DeepSeek, and Meta's Llama.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
