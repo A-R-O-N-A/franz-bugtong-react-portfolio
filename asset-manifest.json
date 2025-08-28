@@ -1,25 +1,18 @@
 {
   "files": {
     "main.css": "/franz-bugtong-react-portfolio/static/css/main.807c9d13.css",
-    "main.js": "/franz-bugtong-react-portfolio/static/js/main.ed7c7fa0.js",
+    "main.js": "/franz-bugtong-react-portfolio/static/js/main.3113eb0b.js",
     "static/js/453.17f30a18.chunk.js": "/franz-bugtong-react-portfolio/static/js/453.17f30a18.chunk.js",
-    "static/media/mock10.png": "/franz-bugtong-react-portfolio/static/media/mock10.2d05b02ba569a430a255.png",
-    "static/media/mock09.png": "/franz-bugtong-react-portfolio/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/franz-bugtong-react-portfolio/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/franz-bugtong-react-portfolio/static/media/mock04.f7b5679efade992a078c.png",
-    "static/media/mock07.png": "/franz-bugtong-react-portfolio/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/franz-bugtong-react-portfolio/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock06.png": "/franz-bugtong-react-portfolio/static/media/mock06.ea816617e0d0fa0f63ca.png",
-    "static/media/mock01.png": "/franz-bugtong-react-portfolio/static/media/mock01.61bd486a54bf6e17ee5a.png",
-    "static/media/mock02.png": "/franz-bugtong-react-portfolio/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/franz-bugtong-react-portfolio/static/media/mock03.a4600719e0b5d2a3155b.png",
+    "static/media/python_rag.png": "/franz-bugtong-react-portfolio/static/media/python_rag.0688dac57cf0d09be9b7.png",
+    "static/media/millennium_gpt_home.png": "/franz-bugtong-react-portfolio/static/media/millennium_gpt_home.4f72ed6aa29ba4e92e82.png",
+    "static/media/momotalk_backend.png": "/franz-bugtong-react-portfolio/static/media/momotalk_backend.5a4b2144f1e56a9e14b4.png",
     "index.html": "/franz-bugtong-react-portfolio/index.html",
     "main.807c9d13.css.map": "/franz-bugtong-react-portfolio/static/css/main.807c9d13.css.map",
-    "main.ed7c7fa0.js.map": "/franz-bugtong-react-portfolio/static/js/main.ed7c7fa0.js.map",
+    "main.3113eb0b.js.map": "/franz-bugtong-react-portfolio/static/js/main.3113eb0b.js.map",
     "453.17f30a18.chunk.js.map": "/franz-bugtong-react-portfolio/static/js/453.17f30a18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.807c9d13.css",
-    "static/js/main.ed7c7fa0.js"
+    "static/js/main.3113eb0b.js"
   ]
 }
