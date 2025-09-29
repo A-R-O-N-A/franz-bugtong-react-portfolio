@@ -18,36 +18,9 @@ function Contact() {
 
   const form = useRef();
 
-  const sendEmail = (e: any) => {
-    e.preventDefault();
 
-    setNameError(name === '');
-    setEmailError(email === '');
-    setMessageError(message === '');
-
-    /* Uncomment below if you want to enable the emailJS */
-
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
-
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
-  };
+  // Detect dark mode from the document body class
+  const isDarkMode = document.body.classList.contains('dark-mode');
 
   return (
     <div id="contact">
@@ -60,8 +33,9 @@ function Contact() {
             component="form"
             noValidate
             autoComplete="off"
-            className='contact-form'
+          // className='contact-form'
           >
+
             <div className='form-flex'>
               <TextField
                 required
@@ -69,11 +43,20 @@ function Contact() {
                 label="Your Name"
                 placeholder="What's your name?"
                 value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
+                onChange={(e) => setName(e.target.value)}
                 error={nameError}
                 helperText={nameError ? "Please enter your name" : ""}
+                InputProps={{
+                  style: {
+                    color: isDarkMode ? 'white' : 'black',
+                    backgroundColor: isDarkMode ? '#222' : 'white'
+                  }
+                }}
+                InputLabelProps={{
+                  style: {
+                    color: isDarkMode ? 'white' : 'black'
+                  }
+                }}
               />
               <TextField
                 required
@@ -81,11 +64,20 @@ function Contact() {
                 label="Email / Phone"
                 placeholder="How can I reach you?"
                 value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
+                onChange={(e) => setEmail(e.target.value)}
                 error={emailError}
                 helperText={emailError ? "Please enter your email or phone number" : ""}
+                InputProps={{
+                  style: {
+                    color: isDarkMode ? 'white' : 'black',
+                    backgroundColor: isDarkMode ? '#222' : 'white'
+                  }
+                }}
+                InputLabelProps={{
+                  style: {
+                    color: isDarkMode ? 'white' : 'black'
+                  }
+                }}
               />
             </div>
             <TextField
@@ -97,16 +89,32 @@ function Contact() {
               rows={10}
               className="body-form"
               value={message}
-              onChange={(e) => {
-                setMessage(e.target.value);
-              }}
+              onChange={(e) => setMessage(e.target.value)}
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
+              InputProps={{
+                style: {
+                  color: isDarkMode ? 'white' : 'black',
+                  backgroundColor: isDarkMode ? '#222' : 'white'
+                }
+              }}
+              InputLabelProps={{
+                style: {
+                  color: isDarkMode ? 'white' : 'black'
+                }
+              }}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+
+            <Button
+              variant="contained"
+              endIcon={<SendIcon style={{ color: 'white' }} />}
+              style={{ color: 'white', backgroundColor: '#5000ca' }} // adjust bg as needed
+            >
               Send
             </Button>
           </Box>
+
+
         </div>
       </div>
     </div>

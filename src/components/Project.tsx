@@ -15,6 +15,9 @@ import '../assets/styles/Project.scss';
 import millennium_gpt from '../assets/projects/millennium_gpt/millennium_gpt_home.png'
 import momotalk from '../assets/projects/momotalk/momotalk_backend.png'
 import python_rag from '../assets/projects/python_rag/python_rag.png'
+import al1se from '../assets/projects/al1se/al1se_demo.png'
+
+import { ProjectCard } from "./ui/ProjectCard";
 
 function Project() {
     return(
@@ -23,28 +26,30 @@ function Project() {
 
         <div className="projects-grid">
 
-            <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={millennium_gpt} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>AI integrated Data Visualization Software</h2></a>
-                <p>Developed an integrated data visualization software with report automation and custom chatbot by utilizing DeepSeek R-1 model</p>
-            </div>
+            <ProjectCard
+                title={'AL1SE - AI integrated Data Visualization Software'}
+                description={'Developed an integrated data visualization software with report automation and custom chatbot by utilizing DeepSeek R-1 model'}
+                image={al1se}
+            />
 
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={millennium_gpt} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Millennium GPT v1</h2></a>
-                <p>An offline AI chatbot built with PHP and ReactJS and Typescript utilizing Ollama server and Meta's Llama 3.2:3b model</p>
-            </div>
+            <ProjectCard
+                title={'Millennium GPT'}
+                description={'An offline AI chatbot built with PHP and ReactJS and Typescript utilizing Ollama server and Meta\'s Llama 3.2:3b model'}
+                image={millennium_gpt}
+            />
 
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={momotalk} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>RSA-AES end-to-end encrypted messaging app</h2></a>
-                <p>Implemented end-to-end encryption for messages using hybrid RSA and AES crytography. Utilized Django for backend and ReactJS for frontend</p>
-            </div>
-            <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={python_rag} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>RAG terminal character chatbot</h2></a>
-                <p>Explored RAG and vector embeddings implementation for customizing AI chatbots, built using Python.</p>
-            </div>
+            <ProjectCard
+                title={'MomoTalk - RSA-AES end-to-end encrypted messaging app'}
+                description={'Implemented end-to-end encryption for messages using hybrid RSA and AES crytography. Utilized Django for backend and ReactJS for frontend'}
+                image={momotalk}
+            />
+
+            <ProjectCard
+                title={'RAG terminal character chatbot'}
+                description={'Explored RAG and vector embeddings implementation for customizing AI chatbots, built using Python.'}
+                image={python_rag}
+            />
+
 
         </div>
     </div>
