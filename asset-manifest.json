@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/franz-bugtong-react-portfolio/static/css/main.807c9d13.css",
-    "main.js": "/franz-bugtong-react-portfolio/static/js/main.58f41ef5.js",
+    "main.js": "/franz-bugtong-react-portfolio/static/js/main.ef3c664f.js",
     "static/js/453.17f30a18.chunk.js": "/franz-bugtong-react-portfolio/static/js/453.17f30a18.chunk.js",
     "static/media/al1se_demo.png": "/franz-bugtong-react-portfolio/static/media/al1se_demo.a3e71dbf0d5f0b275e8f.png",
     "static/media/python_rag.png": "/franz-bugtong-react-portfolio/static/media/python_rag.0688dac57cf0d09be9b7.png",
@@ -9,11 +9,11 @@
     "static/media/momotalk_backend.png": "/franz-bugtong-react-portfolio/static/media/momotalk_backend.5a4b2144f1e56a9e14b4.png",
     "index.html": "/franz-bugtong-react-portfolio/index.html",
     "main.807c9d13.css.map": "/franz-bugtong-react-portfolio/static/css/main.807c9d13.css.map",
-    "main.58f41ef5.js.map": "/franz-bugtong-react-portfolio/static/js/main.58f41ef5.js.map",
+    "main.ef3c664f.js.map": "/franz-bugtong-react-portfolio/static/js/main.ef3c664f.js.map",
     "453.17f30a18.chunk.js.map": "/franz-bugtong-react-portfolio/static/js/453.17f30a18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.807c9d13.css",
-    "static/js/main.58f41ef5.js"
+    "static/js/main.ef3c664f.js"
   ]
 }
